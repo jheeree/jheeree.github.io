@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #EFEFEF;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+    padding: 60px 0;
+
+}
+
+article {
+	background: #FDFDFD;
+	color: #707070;
+	border-radius: 10px;
+    padding: 10px;
+    font-family: inherit;
+	
+	line-height: 32px;
+    box-shadow: 5px 5px 50px rgba(0,0,0,.10);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+.texto {
+    color: #707070;
+    padding: 10% 10%;
+    font-family: inherit;
+    font-size: 150%;
+    text-align: center;
+}
