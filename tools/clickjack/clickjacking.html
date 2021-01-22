@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Clickjacking/framing Check</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="clickjacking.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main class="contenedor">
+        <article>
+            <h1>Clickjacking/framing vulnerability Checker</h1>
+            <p>Ingresa URL:</p>
+            <div id="bar">
+                <input id="url" type="text" placeholder="http://ejemplo.com"></input>
+                <button id="submit-test">Check</button>
+            </div>
+
+            <iframe src="about:blank" id="iframe"></iframe>
+        </article>
+        <article>
+            <h3>Qué es Clickjacking?</h3>
+            <hr><br>
+            El clickjacking es un ataque basado en la interfaz de usuario, normalmente en el navegador. Un atacante utiliza múltiples capas (iframes) transparentes, sobre una web para engañar a la víctima y conseguir que haga clic en un botón o un enlace en otra página y no en la que él está visualizando.
+            <br><br>    
+            Las pulsaciones de teclas también pueden ser secuestradas. Con iframes y cuadros de texto, se puede inducir a un usuario a creer que está escribiendo la contraseña de su correo electrónico o cuenta bancaria, pero en cambio está escribiendo en un marco invisible controlado por el atacante.
+            <br><br><hr>
+        </article>
+        <article>
+            <h3>Referencias</h3>
+            <hr>
+            <a href="https://es.javascript.info/clickjacking">https://es.javascript.info/clickjacking</a>
+            <br>
+            <a href="https://www.imperva.com/learn/application-security/clickjacking/">https://www.imperva.com/learn/application-security/clickjacking/</a>
+            <br>
+            <a href="https://portswigger.net/web-security/clickjacking">https://portswigger.net/web-security/clickjacking</a>
+        </article>
+    </main>
+</body>
+
+</html>
