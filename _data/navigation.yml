@@ -1,0 +1,9 @@
+main:
+   - title: "Home"
+     url: /
+   - title: "Recursos"
+     url: /recursos/
+#   - title: "CSIRT - CL"
+#     url: /csirt-gob/
+#   - title: "About"
+#     url: #
