@@ -8,6 +8,7 @@ author_profile: true
 
 ## Colaboraciones directas realizadas con el [CSIRT del gobierno de Chile](https://www.csirt.gob.cl).
 
+- [ Boletín 13BCS23-00204-01 ](https://www.csirt.gob.cl/media/2023/04/13BCS23-00204-01.pdf)
 - [ Boletín 13BCS23-00192-01 ](https://www.csirt.gob.cl/media/2023/01/13BCS23-000192-01.pdf)
 - [ Boletín 13BCS22-00190-01 ](https://www.csirt.gob.cl/media/2022/12/13BCS22-000190-01.pdf)
 - [ Boletín 13BCS22-00166-01 ](https://www.csirt.gob.cl/media/2022/07/13BCS22-000166-Boletin-Semanal.pdf)
