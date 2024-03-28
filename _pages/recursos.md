@@ -19,7 +19,7 @@ author_profile: true
 - [Sentinel-attack](https://github.com/BlueTeamLabs/sentinel-attack) - Set de herramientas para Threat Hunting en Azure Sentinel.
 - [Sentinel2D3FEND](https://github.com/Intellisec-Solutions/Sentinel2D3FEND)
 - [T-Pot](https://blog.elhacker.net/2021/01/instalar-honeypot-t-pot-en-una-maquina-virtual-tpotce-cowrie-docker-dionea.html) - Honeypot
-- [CVETrends](https://cvetrends.com) - Tendencias CVE en las últimas 24 horas.
+- [~~CVETrends~~](https://cvetrends.com) - ~~Tendencias CVE en las últimas 24 horas.~~ (R.I.P.🪦)
 - [ATT&CK POWERED SUIT](https://ctid.mitre-engenuity.org/attack-powered-suit/) - Extensión para navegador. Búsqueda rápida en MITRE ATT&CK
 
 ---
