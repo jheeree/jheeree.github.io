@@ -22,7 +22,7 @@ Ahora post-evento, me comentó que no pudieron resolver la máquina 💔 así qu
 
 ## [+] Descripción del desafío
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled.png){: .align-center}
 
 <aside>
 📋 Y como no queremos ser tan malos, una pista, el desafío comienza en:
@@ -32,7 +32,7 @@ http://10.4.4.110:1337/ </aside>
 
 Ingresamos primero a la URL que nos indica la descripción, y nos topamos con un sitio web que al parecer tiene temática de Lovecraft.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%201.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%201.png){: .align-center}
 
 Indagamos un poco para conocer las tecnologías o frameworks que se están utilizando. Para ello utilizaremos "whatweb".
 
@@ -45,9 +45,9 @@ Nada relevante a simple vista. Solo sabemos que el servicio web corresponde a un
 
 Revisemos si hay algo interesante en el código fuente del sitio.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%202.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%202.png){: .align-center}
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%203.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%203.png){: .align-center}
 
 Vaya comentario. Al menos se nos indica que no nos servirá revisar por esa vía 🤷‍♂️.
 
@@ -77,7 +77,7 @@ Solo 3 resultados. 2 carpetas de recursos generales de un sitio web genérico, y
 
 Revisemos qué trae este último.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%204.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%204.png){: .align-center}
 
 Nada importante. Try hard al menos.
 
@@ -130,33 +130,33 @@ Vaya vaya. Un puerto SSH. Lo dejaremos en background mientras revisamos con mayo
 
 Al leer un poco más calmado el contenido, nos habla un poco sobre el origen del "Necronomicón" (Libro escrito por H.P. Lovecraft), su cronología, y también sobre los "50 Nombres de Marduk". Adicional, se puede apreciar una galería de imágenes con símbolos que aparentan ser la representación de los nombres de Marduk.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%205.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%205.png){: .align-center}
 
 Al final del sitio, nos llama algo la atención, y es el "by **Howard**". Habitualmente en los sitios tipo blogs, foros, o páginas random que hablan sobre un tema, se suele indicar quien es el autor del contenido. Lo tendremos en consideración.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%206.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%206.png){: .align-center}
 
 Si miramos los símbolos y hacemos click sobre ellos, mediante herramientas de desarrollador veremos la ruta donde están siendo alojadas. Esta concuerda además con los resultados anteriormente obtenidos con Dirsearch.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%207.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%207.png){: .align-center}
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%208.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%208.png){: .align-center}
 
 Pequeño detalle: en la carpeta de las imágenes se encuentran más de las que se muestran en la galería. Será una pista?
 
 Con el navegador que estoy utilizando (Vivaldi), al hacer click secundario sobre una imagen cualquiera, me permite hacer una búsqueda de ella en Google.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%209.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%209.png){: .align-center}
 
 Para otros casos, es posible descargar la imagen y hacer una búsqueda por Google Imágenes. Al hacerlo, dentro de los resultados que coinciden con la búsqueda, llegamos a una página que justamente habla sobre los 50 nombre de Marduk.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2010.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2010.png){: .align-center}
 
 - [Los Cincuenta Nombres de Marduk](https://simbologiadelmundo.com/los-cincuenta-nombres-de-marduk/)
 
 Al dar un vistazo rápido, vemos que aparecen los mismos símbolos del desafío, y además aparecen los nombres de cada uno.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2011.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2011.png){: .align-center}
 
 En este punto, tal vez podríamos pensar en hacer un diccionario con los 50 nombres, ya que se mencionan demasiados. Podríamos ir copiando uno por uno (ya que son 50), o podríamos aprovechar la terminal para poder hacerlo con una sola línea.
 
@@ -214,7 +214,7 @@ ESTAMOS DENTRO DE LA MÁQUINA!! \o/
 
 Disclaimer2: la felicidad solo dura un momento porque la flag no se encuentra acá.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2012.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2012.png){: .align-center}
 
 Al ver los archivos ubicados en el directorio home del usuario "howard", encontramos uno que dice "notas.txt". 
 
@@ -233,7 +233,7 @@ Las últimas 2 líneas nos hace ruido. Lo tendremos en consideración.
 
 Mientras tanto, comenzaremos a realizar un reconocimiento de la máquina. Para esta oportunidad utilizaremos el recurso de "[Linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)".  Para ello, realizaremos una trasferencia de archivo desde nuestro equipo a la máquina.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2013.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2013.png){: .align-center}
 
 La otra forma que suelo utilizar para realizar reconocimiento de forma manual de la máquina, es mediante la guía de "g0tmi1k". En su momento me la recomendaron y ahora la tengo como sagrada biblia.😌
 
@@ -243,7 +243,7 @@ Una vez que nos damos cuenta que no tenemos mucho qué hacer dentro de la máqui
 
 Primero vemos qué IP tenemos junto con la máscara de red.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2014.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2014.png){: .align-center}
 
 Vemos que el entorno tiene la 172.16.0.2, y que su máscara de red es 255.255.255.0 ( o sub-máscara /24). Esto quiere decir que podrían haber 255 hosts dentro del segmento. Así que no sería descabellado de igual manera pensar en hacer un reconocimiento por esta vía. 
 
@@ -251,7 +251,7 @@ Podríamos optar por transferir un binario estático de nmap tal vez y ejecutar 
 
 - [static-binaries/nmap at master · andrew-d/static-binaries](https://github.com/andrew-d/static-binaries/blob/master/binaries/linux/x86_64/nmap)
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2015.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2015.png){: .align-center}
 
 O bien, como forma alternativa podríamos construir con un par de líneas un script en bash.
 
@@ -285,11 +285,11 @@ for port in $(seq 1 65535); do
 done; wait
 ```
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2016.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2016.png){: .align-center}
 
 Vemos que solamente tiene abierto el puerto 80. Será servicio web? Probamos con un simple curl para verificar.
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2017.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2017.png){: .align-center}
 
 Y efectivamente corresponde a un servicio web, y para nuestra sorpresa, es el ambiente test que se menciona en las notas que pillamos en un principio. Podríamos tal vez ver mayor info según los headers que tenga. 
 
@@ -351,7 +351,7 @@ howard@necronomicon:~$ curl "172.16.0.3/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/howard
 flag{Bu3n_tr4b4j0_huM4nO}
 ```
 
-![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2018.png)
+![Untitled](/assets/images/content/CTF/Kavacon-2021/dejame/Untitled%2018.png){: .align-center}
 
 Habemus flag!🏁🏆
 

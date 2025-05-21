@@ -32,7 +32,7 @@ Esto quiere decir que tendremos la capacidad de poder bloquear la publicidad y r
 
 El protocolo DNS (Domain Name System), básicamente nos permite realizar traducciones de dominios a direcciones IP. Por ejemplo, si queremos visitar un sitio llamado “www.ejemplo.com”, lo que estamos haciendo es mandar una petición al servidor DNS consultando cual es la IP de ese sitio. Luego este nos responde, y luego esa petición seguiría su flujo hacia donde sea que corresponda.
 
-![Untitled](/assets/images/content/POST/PIHOLE	/Untitled%201.png){: .align-center}
+![Untitled](/assets/images/content/POST/PIHOLE/Untitled%201.png){: .align-center}
 
 Explicado eso, cuando realizamos una petición que involucra a una publicidad de por medio, esta también es consultada al DNS asociado a nuestra red.
 

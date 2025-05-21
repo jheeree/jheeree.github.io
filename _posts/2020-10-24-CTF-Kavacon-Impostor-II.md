@@ -14,7 +14,7 @@ tags:
   - Kavacon
 excerpt: "Si les dolió la cabeza con el Impostor 1, esta no será diferente."
 ---
-<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_001.PNG" style="zoom:67%;" />
+<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_001.PNG" style="zoom:67%;" />{: .align-center}
 
 > Si les dolió la cabeza con el Impostor 1, esta no será diferente.
 >
@@ -47,7 +47,7 @@ Subimos el archivo wav y le damos a `play`.
 
 Nota adicional: se puede ir jugando con los valores de abajo para obtener mejores resultados, ya que tiende a fallar en algunos casos, o bien no muestra el mensaje de forma correcta.
 
-![image_003](/assets/images/content/CTF/Kavacon-2020/impostor2/image_003.PNG)
+![image_003](/assets/images/content/CTF/Kavacon-2020/impostor2/image_003.PNG){: .align-center}
 
 Vemos que nos entrega un texto que parece ser un link acortado, pero con cierta modificación y hints:
 
@@ -84,17 +84,17 @@ Al parecer, esto sería lenguaje `brainfuck` (recomiendo leer sobre lenguajes de
 
 Buscamos un intérprete online para ver qué nos muestra.
 
-<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_004.PNG" alt="image_004" style="zoom: 80%;" />
+<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_004.PNG" alt="image_004" style="zoom: 80%;" />{: .align-center}
 
 > Personal de la tierra, esto es todo lo que pude rescatar de nuestras carpetas compartidas en la nave, por desgracia, luego de la muerte de rosa y verde, todos tuvieron tiempo de ingresar a borrar sus datos, es todo lo que tengo, espero dar con el culpable https://t.me/joinchat/AAAAAFZfqWonp2dU8aQNeg
 
 Ya empezamos con los enlaces a telegram😂. Este sería un canal. 
 
-![image_005](/assets/images/content/CTF/Kavacon-2020/impostor2/image_005.PNG)
+![image_005](/assets/images/content/CTF/Kavacon-2020/impostor2/image_005.PNG){: .align-center}
 
 Al unirte, vemos que solamente trae un archivo comprimido.
 
-<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_006.PNG" alt="image_006" style="zoom:67%;" />
+<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_006.PNG" alt="image_006" style="zoom:67%;" />{: .align-center}
 
 Lo descargamos, y cuando probamos con tratar de descomprimirlo, nos percatamos que este se encuentra protegido con contraseña.
 
@@ -161,13 +161,13 @@ micompaelrojo.webnode.cl
 
 Ingresamos y ...
 
-<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_007.PNG" alt="image_007" style="zoom: 67%;" />
+<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_007.PNG" alt="image_007" style="zoom: 67%;" />{: .align-center}
 
 Un cachupín nos recibe🐕. (#NoCompren #Adopten)
 
 Dando un rápido vistazo, en uno de los títulos se ve la palabra `cewl` (creo que ya sabemos por donde va esto).
 
-<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_008.PNG" alt="image_008" style="zoom:67%;" />
+<img src="/assets/images/content/CTF/Kavacon-2020/impostor2/image_008.PNG" alt="image_008" style="zoom:67%;" />{: .align-center}
 
 `cewl` es una herramienta que nos permite generar un diccionario en base a un sitio web. Como en este caso posee una cantidad considerable de texto, nos hace sentido poder generar uno con lo que tiene. Podría servirnos a futuro.
 
@@ -201,7 +201,7 @@ Descomprimimos y vemos que trae un archivo de texto.
 
 Esto sería hexadecimal. Veamos qué nos muestra al pasarlo a texto plano.
 
-![image_009](/assets/images/content/CTF/Kavacon-2020/impostor2/image_009.PNG)
+![image_009](/assets/images/content/CTF/Kavacon-2020/impostor2/image_009.PNG){: .align-center}
 
 > Debo recordar enviarle su pass de acceso a rosado antes de que todos borren sus datos Asunci0n,,2020
 
@@ -223,7 +223,7 @@ vhhdg://rfwjs.uccuzs.qca/twzs/r/1D9a61NAmtKQ6u3-Xz-tr937_2WZAcMvL/jwsk?igd=gvofw
 
 Pero nooooo. Era ROT12. Y nos muestra un enlace a un archivo compartido en google drive.
 
-![image_010](/assets/images/content/CTF/Kavacon-2020/impostor2/image_010.PNG)
+![image_010](/assets/images/content/CTF/Kavacon-2020/impostor2/image_010.PNG){: .align-center}
 
 > https://drive.google.com/file/d/1P9m61ZMyfWC6g3-Jl-fd937_2ILMoYhX/view?usp=sharing
 
@@ -231,17 +231,17 @@ Un código QR que al escanearlo nos da otro link acortado.
 
 Hasta este punto estaba tratando de mantener el contador de "Diego te odio" en 0, pero ya con tanta URL allá y acá, le agregaremos un `1`. 
 
-![image_011](/assets/images/content/CTF/Kavacon-2020/impostor2/image_011.PNG)
+![image_011](/assets/images/content/CTF/Kavacon-2020/impostor2/image_011.PNG){: .align-center}
 
 > https://acortar.link/P3z1K
 
 Un link hacia un grupo de whatsapp?. Ok, esto es nuevo.
 
-![image_012](/assets/images/content/CTF/Kavacon-2020/impostor2/image_012.PNG)
+![image_012](/assets/images/content/CTF/Kavacon-2020/impostor2/image_012.PNG){: .align-center}
 
 Una vez que ingresas, en la descripción de este puedes ver lo que pareciera ser una contraseña.
 
-![image_013](/assets/images/content/CTF/Kavacon-2020/impostor2/image_013.PNG)
+![image_013](/assets/images/content/CTF/Kavacon-2020/impostor2/image_013.PNG){: .align-center}
 
 > m4nz4n4z2018
 
@@ -283,7 +283,7 @@ Archive:  peligro.zip
 
 2 archivos que serían 1 imagen y 1 archivo de texto.
 
-![image_014](/assets/images/content/CTF/Kavacon-2020/impostor2/image_014.PNG)
+![image_014](/assets/images/content/CTF/Kavacon-2020/impostor2/image_014.PNG){: .align-center}
 
 
 
@@ -296,7 +296,7 @@ sudo wget https://www.mibolsillo.com/__export/1600536607400/sites/debate/img/202
 
 La descargamos y vemos qué es.
 
-![image_015](/assets/images/content/CTF/Kavacon-2020/impostor2/image_015.PNG)
+![image_015](/assets/images/content/CTF/Kavacon-2020/impostor2/image_015.PNG){: .align-center}
 
 Una imagen descargada de un archivo que se llamaba "mi_pass", nos puede dar indicio que acá se encuentra la contraseña de la imagen que trae stego.
 
@@ -338,4 +338,4 @@ Ahora, ya se amarró con continuar la trilogía. Quizás qué nos traerá. 🤔
 
 Y lo siento mucho Diego, pero el trolleo que ocurrió en el paso final, me lo llevaré a la tumba .😂
 
-![image_000](/assets/images/content/CTF/Kavacon-2020/impostor2/image_000.PNG)
+![image_000](/assets/images/content/CTF/Kavacon-2020/impostor2/image_000.PNG){: .align-center}

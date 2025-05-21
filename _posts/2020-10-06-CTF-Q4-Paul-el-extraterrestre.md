@@ -15,7 +15,7 @@ tags:
   - "Q4"
 excerpt: "Paul nuestro amigo hacker, ha llegado a la tierra para ayudarte con algunas misiones."
 ---
-![](/assets/images/content/CTF/Q4-2020/paul/teaser.jpg)
+![](/assets/images/content/CTF/Q4-2020/paul/teaser.jpg){: .align-center}
 
 > Paul nuestro amigo hacker, ha llegado a la tierra para ayudarte con algunas misiones.
 
@@ -35,7 +35,7 @@ El desafío en cuestión ya nos indica que es un servicio `http` corriendo por e
 
 Si ingresamos por navegador, nos toparemos con lo siguiente:
 
-![](/assets/images/content/CTF/Q4-2020/paul/image001.PNG)
+![](/assets/images/content/CTF/Q4-2020/paul/image001.PNG){: .align-center}
 
 Además de toparnos con el amigo Paul👽, si nos damos cuenta, en el título de la página nos muestra la palabra `D3F4C3`, haciendo alusión al término "Defacement", que consiste básicamente en un ataque a un sitio web, cambiando la apariencia visual de una página (generalmente el index.*, o página de inicio), dando a demostrar que esta fue vulnerada por alguien.
 
@@ -79,13 +79,13 @@ Task Completed
 
 De los resultados obtenidos, el que más nos llama la atención sería en específico `paul.php`. Revisemos qué nos muestra.
 
-![](/assets/images/content/CTF/Q4-2020/paul/image003.PNG)
+![](/assets/images/content/CTF/Q4-2020/paul/image003.PNG){: .align-center}
 
 Una página en blanco😐. Pero si nos fijamos en el título dice `SIMPLE BACKDOOR`. ¿Será que podremos pasar comandos por la url?.
 
 Hacemos la prueba agregando un `?cmd=id` al final de esta y ...
 
-![](/assets/images/content/CTF/Q4-2020/paul/image004.PNG)
+![](/assets/images/content/CTF/Q4-2020/paul/image004.PNG){: .align-center}
 
 Tenemos ejecución de comandos 👀.
 
@@ -93,25 +93,25 @@ Cabe destacar que para los pasos a continuación, no era necesario establecer un
 
 Vemos primero con qué usuario estamos.
 
-![](/assets/images/content/CTF/Q4-2020/paul/image005.PNG)
+![](/assets/images/content/CTF/Q4-2020/paul/image005.PNG){: .align-center}
 
 Y luego revisamos la ruta actual junto con los archivos en ella.
 
-![](/assets/images/content/CTF/Q4-2020/paul/image009.PNG)
+![](/assets/images/content/CTF/Q4-2020/paul/image009.PNG){: .align-center}
 
-![](/assets/images/content/CTF/Q4-2020/paul/image010.PNG)
+![](/assets/images/content/CTF/Q4-2020/paul/image010.PNG){: .align-center}
 
 Al parecer, nada concreto que nos llame la atención.
 
 Lo que podríamos hacer es una revisión de archivos de manera recursiva sobre la raíz (`/`), y ver si podemos encontrar la flag un poco más rápido.  Para ello tiramos del comando `ls -lahtR /`
 
-![](/assets/images/content/CTF/Q4-2020/paul/image007.PNG)
+![](/assets/images/content/CTF/Q4-2020/paul/image007.PNG){: .align-center}
 
 Dado a que nos muestra una importante cantidad de información, búscamos con el mismo navegador (`ctrl + f` - `ctrl + b`) la palabra "flag", y veremos que ésta se encuentra en el directorio `/root/`, y además posee permisos de lectura.
 
 Nos basta entonces con hacer un `cat /root/flag.txt` y ...
 
-![](/assets/images/content/CTF/Q4-2020/paul/image008.PNG)
+![](/assets/images/content/CTF/Q4-2020/paul/image008.PNG){: .align-center}
 
 ¡¡Habemus flag!! 🏁🏆
 
