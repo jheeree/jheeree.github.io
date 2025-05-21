@@ -43,7 +43,7 @@ Dispositivos para hacer un clon de la pineapple hay por montones, pero depender�
 
 “Mango” N300 Mini Wireless Router (o por su nombre técnico GL-MT300N-V2), es un mini router económico (ronda los 29 USD), ultraligero, y alimentado por USB. Viene con OpenWrt preinstalado (guiño guiño 😏).  Está basado en un SoC MT7628NN a 580 MHz con 128 MB de RAM y 16 MB de flash. Ofrece suficiente potencia de cómputo y flexibilidad de configuración, a un precio y factor de forma muy inferior a la Mark VII, pero considerando que nos estamos ahorrando una buena cantidad de dólares, y que también jamás le sacarás el 100% de uso en hardware, no está demás 😉
 
-El contenido dentro de la caja consiste en el router, un cable Ethernet Cat.6, y un cable USB micro B que nos servirá para la alimentación de energía.
+El contenido dentro de la caja consiste en un router, un cable Ethernet Cat.6, y un cable USB micro B que nos servirá para la alimentación de energía.
 
 <img src="/assets/images/content/MANGO/mango001.jpeg" alt="mango" style="width: 500px;" class="align-center" />
 
@@ -97,7 +97,7 @@ Lo primero, tendremos que descargar una serie de archivos que son de vital impor
 
 ![](/assets/images/content/MANGO/mango008.png){: .align-center}
 
-Siguiente paso, dirigirnos al repositorio [https://github.com/xchwarze/wifi-pineapple-cloner](https://github.com/xchwarze/wifi-pineapple-cloner). Acá podremos asegurarnos que nuestro dispositivo se encuentra dentro del listado soportad.o 
+Siguiente paso, dirigirnos al repositorio [https://github.com/xchwarze/wifi-pineapple-cloner](https://github.com/xchwarze/wifi-pineapple-cloner). Acá podremos asegurarnos que nuestro dispositivo se encuentra dentro del listado soportado. 
 
 ![](/assets/images/content/MANGO/mango009.png){: .align-center}
 
@@ -173,7 +173,7 @@ Configuramos el filtrado de clientes, y también de SSID (aquí ya esto es a gus
 
 ![](/assets/images/content/MANGO/mango025.png){: .align-center}
 
-Y por supuesto, una vez hay que ya leímos la licencia y los términos y condiciones de uso, marcamos ambas casillas y completamos la configuración, porque obviamente leímos estas cosas, cierto?
+Y por supuesto, una vez que ya leímos la licencia y los términos y condiciones de uso, marcamos ambas casillas y completamos la configuración, porque obviamente leímos estas cosas, cierto?
 
 ![](/assets/images/content/MANGO/mango026.png){: .align-center}
 
@@ -181,7 +181,7 @@ Luego nos redirigirá al panel de autenticación, colocamos nuestras credenciale
 
 ![](/assets/images/content/MANGO/mango027.png){: .align-center}
 
-Y listo! habemus piña! 🍍 El dispositivo ya está listo para ir metiendo mano en cuando a customización se requiera darle 😏
+Y listo! habemus piña! 🍍 El dispositivo ya está listo para ir metiendo mano en cuanto a customización se requiera darle 😏
 
 ![](/assets/images/content/MANGO/mango028.png){: .align-center}
 
